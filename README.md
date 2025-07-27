@@ -51,6 +51,15 @@ video-club-pelisapp/
 - [ ] Panel de administración para gestionar catálogo.
 - [ ] Mejorar diseño con animaciones y dark mode.
 
+## Novedades
+- Se eliminó el array estático y ahora los datos se obtienen mediante una solicitud **GET** a la API:  
+  [https://students-api.up.railway.app/movies](https://students-api.up.railway.app/movies)
+- Las tarjetas de películas se renderizan dinámicamente con la información recibida (poster, título, duración, director, puntaje y género).
+
+## Tecnologías
+- **HTML5** y **CSS3** (con diseño responsive en grid).
+- **JavaScript** (DOM y jQuery para la petición AJAX).
+- **Git/GitHub** para control de versiones.
 ---
 
 ## 🤝 Contribuciones
