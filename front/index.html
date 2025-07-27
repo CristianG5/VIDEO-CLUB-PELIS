@@ -3,10 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Video Club</title>
   </head>
   <body>
-    <h1>Proyecto de M2</h1>
+   <header id="main-header">
+      <div class="header-container">
+       <div class="logo">🎬 Video Club</div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#peliculas">Películas</a></li>
+            <li><a href="#series">Series</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section id="peliculas">
+    <h2>Películas destacadas</h2>
+    <div id="contenedor-peliculas"></div>
+  </section>
+</main>
 
     <script src="./scripts/tempData.js"></script>
     <script src="./scripts/index.js"></script>
