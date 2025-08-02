@@ -28,24 +28,29 @@ Actualmente solo está implementada la parte **frontend**, pero el proyecto incl
 
 ## 📂 Estructura del proyecto
 
+# Video Club PelisApp
+
+Estructura de proyecto:
+
+```bash
 video-club-pelisapp/
 │
-├── frontend/ # Código del cliente
-│ ├── index.html
-│ ├── styles/
-│ │ └── styles.css
-│ └── scripts/
-│ ├── index.js
-│ └── tempData.js
+├── frontend/ 
+│   ├── index.html
+│   ├── styles/
+│   │   └── styles.css
+│   └── scripts/
+│       ├── index.js
+│       └── tempData.js
 │
 ├── backend/ # Código del servidor (en construcción)
-│ └── server.js
+│   └── server.js
 │
 └── README.md
 
 ## 📅 Roadmap
 - [x] Estructura inicial de frontend.
-- [ ] Crear estructura básica del backend con Node.js.
+- [X] Crear estructura básica del backend con Node.js.
 - [ ] Conectar con base de datos (películas dinámicas).
 - [ ] Añadir autenticación de usuarios.
 - [ ] Panel de administración para gestionar catálogo.
